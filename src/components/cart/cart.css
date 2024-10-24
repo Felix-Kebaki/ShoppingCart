@@ -1,0 +1,20 @@
+.MainEachCartContainer{
+    display:flex;
+    justify-content:space-between;
+    width:98%;
+    margin:0rem auto 0rem;
+    align-items:center;
+}
+
+.MainEachCartContainer img{
+    width:50%;
+}
+
+.DescriptionMainDivEachCart{
+    width:48%;
+
+}
+
+#MainTittleCart{
+    font-size:5rem;
+}

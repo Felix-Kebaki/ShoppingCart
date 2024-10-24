@@ -1,0 +1,89 @@
+
+
+.MainbodySec{
+    width:100%;
+    padding:2rem 0rem 4rem 0rem;
+}
+
+.MainbodyDiv{
+    display:grid;
+    width:99%;
+    margin:0rem auto 0rem;
+    grid-gap:1rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:repeat(13,10rem);
+    grid-template-areas:
+    "FirstDiv emptyDiv1"
+    "FirstDiv SecondDiv"
+    "FirstDiv SecondDiv"
+    "FirstDiv SecondDiv"
+    "ThirdDiv SecondDiv"
+    "ThirdDiv FourthDiv"
+    "ThirdDiv FourthDiv"
+    "ThirdDiv FourthDiv"
+    "FifthDiv FourthDiv"
+    "FifthDiv SixthDiv"
+    "FifthDiv SixthDiv"
+    "FifthDiv SixthDiv"
+    "emptyDiv2 SixthDiv"
+    ;
+}
+
+.FirstDiv{
+    grid-area: FirstDiv;
+}
+
+.SecondDiv{
+    grid-area: SecondDiv;
+}
+.ThirdDiv{
+    grid-area: ThirdDiv;
+}
+.FourthDiv{
+    grid-area: FourthDiv;
+}
+.FifthDiv{
+    grid-area: FifthDiv;
+}
+.SixthDiv{
+    grid-area: SixthDiv;
+}
+
+.emptyDiv1{
+    grid-area: emptyDiv1;
+}
+
+.emptyDiv2{
+    grid-area: emptyDiv2;
+}
+
+.AllProductDiv{
+    height:100%;
+    width:100%;
+}
+
+.AllProductDiv img{
+    height:80%;
+    width:100%;
+}
+
+.MoreDetailsOnProductDiv{
+    height:20%;
+    width:100%;
+}
+
+.MoreDetailsOnProductDiv p{
+    font-size:1.4rem;
+    color:black;
+    font-size:1.8rem;
+    margin:0.5rem 0rem 1rem 0rem; 
+}
+
+.MoreDetailsOnProductDiv button{
+    padding:0.4rem 1rem;
+    font-size:1rem;
+    cursor:pointer;
+    border:none;
+    background:orangered;
+}
+
