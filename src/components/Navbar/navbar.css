@@ -1,99 +1,149 @@
 @font-face {
-    font-family: LogoFont;
-    src: url(../../assets/Fonts/gartis.otf);
+  font-family: LogoFont;
+  src: url(../../assets/Fonts/gartis.otf);
 }
 
-header{
-    width: 100%;
-    position: sticky;
-    top: 0;
+header {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
 }
 
-nav{
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    padding: 1rem 2rem;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
 }
 
-#LogoName{
-    font-size:2rem;
-    font-family:LogoFont;
+#LogoName {
+  font-size: 2rem;
+  font-family: LogoFont;
 }
 
-.CartLinkNavDiv{
-    overflow:hidden;
+.CartLinkNavDiv {
+  overflow: hidden;
 }
 
-.CartLinkNavDiv a{
-    position:relative;
-    overflow: hidden;
-    padding: 0rem 1.3rem 4rem 1.3rem;
-    transition:all 0.5s ease-in-out;
+.CartLinkNavDiv a {
+  position: relative;
+  overflow: hidden;
+  padding: 0rem 1.3rem 4rem 1.3rem;
+  transition: all 0.5s ease-in-out;
 }
 
-
-.CartLinkNavDiv a img{
-    text-decoration:none;
-    width:1.5rem;
-    transition: all 0.5s ease-in-out;
+.CartLinkNavDiv a img {
+  text-decoration: none;
+  width: 1.5rem;
+  transition: all 0.5s ease-in-out;
 }
 
-#NumberInCart{
-    position:absolute;
-    right:0;
-    top:0;
-    margin-top: -0.2rem;
-    padding:0.1rem 0.4rem;
-    background:orangered;
-    color:white;
-    border-radius: 50%;
-    transition:all 0.5s ease-in-out;
+#NumberInCart {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top: -0.2rem;
+  padding: 0.1rem 0.4rem;
+  background: orangered;
+  color: white;
+  border-radius: 50%;
+  transition: all 0.5s ease-in-out;
 }
 
-
-#Cartlink:hover{
-    padding-right:1.7rem;
-}
-
-.CartLinkNavDiv #Homelink::before{
-    content:"Home";
-    position:absolute;
-    font-size:1.2rem;
-    color: black;
-    transform: translateY(2rem);
-    transition: all 0.5s ease-in-out;
-}
-
-
-.CartLinkNavDiv #Cartlink::before{
-    content:"Cart";
-    position:absolute;
-    font-size:1.2rem;
-    color: black;
-    transform: translateY(2rem);
-    transition: all 0.5s ease-in-out;
-}
-
-.CartLinkNavDiv #Homelink:hover::before{
-    transform: translateY(0rem);
-}
-
-.CartLinkNavDiv #Cartlink:hover::before{
-    transform: translateY(0rem);
-}
-
-.CartLinkNavDiv a:hover img{
-    transform:translateY(-2rem)
-}
-
-.MenuDivAtNav{
+.noNumber{
     display:none;
 }
 
-.MenuDivAtNav img{
-    cursor:pointer;
-    width: 2rem;
+#Cartlink:hover {
+  padding-right: 1.7rem;
 }
 
+.CartLinkNavDiv #Homelink::before {
+  content: "Home";
+  position: absolute;
+  font-size: 1.2rem;
+  color: black;
+  transform: translateY(2rem);
+  transition: all 0.5s ease-in-out;
+}
 
+.CartLinkNavDiv #Cartlink::before {
+  content: "Cart";
+  position: absolute;
+  font-size: 1.2rem;
+  color: black;
+  transform: translateY(2rem);
+  transition: all 0.5s ease-in-out;
+}
+
+.CartLinkNavDiv #Homelink:hover::before {
+  transform: translateY(0rem);
+}
+
+.CartLinkNavDiv #Cartlink:hover::before {
+  transform: translateY(0rem);
+}
+
+.CartLinkNavDiv a:hover img {
+  transform: translateY(-2rem);
+}
+
+@media screen and (max-width: 767px) {
+  nav {
+    padding: 0.8rem 1rem;
+  }
+  .CartLinkNavDiv #Homelink::before {
+    content: "";
+  }
+  .CartLinkNavDiv #Cartlink::before {
+    content: "";
+  }
+  .CartLinkNavDiv #Homelink:hover::before {
+    transform: translateY(2rem);
+    display: none;
+  }
+
+  .CartLinkNavDiv #Cartlink:hover::before {
+    transform: translateY(2rem);
+    display: none;
+  }
+  .CartLinkNavDiv a:hover img {
+    transform: translateY(0rem);
+  }
+}
+
+@media screen and (max-width: 575px) {
+  nav {
+    padding: 0.8rem 0.7rem;
+  }
+  #LogoName {
+    font-size: 1.7rem;
+  }
+  .CartLinkNavDiv a {
+    padding: 0rem 0.5rem 4rem 0.5rem;
+  }
+  .CartLinkNavDiv a img {
+    width: 1.2rem;
+  }
+  #NumberInCart {
+    margin-top: 0rem;
+    padding: 0.1rem 0.3rem;
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 248px) {
+    nav {
+        padding: 0.4rem 0.5rem;
+      }
+}
+
+@media screen and (max-width: 224px) {
+    #LogoName {
+        font-size: 1.4rem;
+      } 
+      .CartLinkNavDiv a img {
+        width: 1.1rem;
+      }
+}

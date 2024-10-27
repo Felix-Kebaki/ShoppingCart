@@ -9,54 +9,54 @@ export const Products=[
     {
         id:1,
         image:product1,
+        price:10,
         Name:"bracelet",
-        quantity:1,
         classy:"FirstDiv",
-        desc:"Discover expert advice, seasonal ingredient highlights, and creative ways to elevate your meals. Whether you’re a beginner or seasoned cook, our blog will inspire your next delicious dish."
+        desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia odit, dolorem fugiat quos sapiente velit aperiam modi harum omnis id maiores? Blanditiis tempora a eaque recusandae eius laboriosam aut sint quia reiciendis explicabo nam distinctio reprehenderit, delectus in excepturi voluptatibus ipsa sequi voluptates quas labore repellendus ipsam pariatur incidunt magni."
     },
     {
         id:2,
         image:product2,
         Name:"Rolex",
-        quantity:1,
+        price:120,
          classy:"SecondDiv",
-         desc:"Discover expert advice, seasonal ingredient highlights, and creative ways to elevate your meals. Whether you’re a beginner or seasoned cook, our blog will inspire your next delicious dish."
+         desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia odit, dolorem fugiat quos sapiente velit aperiam modi harum omnis id maiores? Blanditiis tempora a eaque recusandae eius laboriosam aut sint quia reiciendis explicabo nam distinctio reprehenderit, delectus in excepturi voluptatibus ipsa sequi voluptates quas labore repellendus ipsam pariatur incidunt magni."
 
     },
     {
         id:3,
         image:product3,
         Name:"cologne",
-        quantity:1,
+        price:13,
          classy:"ThirdDiv",
-         desc:"Discover expert advice, seasonal ingredient highlights, and creative ways to elevate your meals. Whether you’re a beginner or seasoned cook, our blog will inspire your next delicious dish."
+         desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia odit, dolorem fugiat quos sapiente velit aperiam modi harum omnis id maiores? Blanditiis tempora a eaque recusandae eius laboriosam aut sint quia reiciendis explicabo nam distinctio reprehenderit, delectus in excepturi voluptatibus ipsa sequi voluptates quas labore repellendus ipsam pariatur incidunt magni."
 
     },
     {
         id:4,
         image:product4,
         Name:"cuffs",
-        quantity:1,
+        price:8,
          classy:"FourthDiv",
-         desc:"Discover expert advice, seasonal ingredient highlights, and creative ways to elevate your meals. Whether you’re a beginner or seasoned cook, our blog will inspire your next delicious dish."
+         desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia odit, dolorem fugiat quos sapiente velit aperiam modi harum omnis id maiores? Blanditiis tempora a eaque recusandae eius laboriosam aut sint quia reiciendis explicabo nam distinctio reprehenderit, delectus in excepturi voluptatibus ipsa sequi voluptates quas labore repellendus ipsam pariatur incidunt magni."
 
     },
     {
         id:5,
         image:product5,
         Name:"Belt",
-        quantity:1,
+        price:12,
          classy:"FifthDiv",
-         desc:"Discover expert advice, seasonal ingredient highlights, and creative ways to elevate your meals. Whether you’re a beginner or seasoned cook, our blog will inspire your next delicious dish."
+         desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia odit, dolorem fugiat quos sapiente velit aperiam modi harum omnis id maiores? Blanditiis tempora a eaque recusandae eius laboriosam aut sint quia reiciendis explicabo nam distinctio reprehenderit, delectus in excepturi voluptatibus ipsa sequi voluptates quas labore repellendus ipsam pariatur incidunt magni."
 
     },
     {
         id:6,
         image:product6,
         Name:"Bow-Tie",
-        quantity:1,
+        price:5,
          classy:"SixthDiv",
-         desc:"Discover expert advice, seasonal ingredient highlights, and creative ways to elevate your meals. Whether you’re a beginner or seasoned cook, our blog will inspire your next delicious dish."
+         desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia odit, dolorem fugiat quos sapiente velit aperiam modi harum omnis id maiores? Blanditiis tempora a eaque recusandae eius laboriosam aut sint quia reiciendis explicabo nam distinctio reprehenderit, delectus in excepturi voluptatibus ipsa sequi voluptates quas labore repellendus ipsam pariatur incidunt magni."
 
     },
 ]

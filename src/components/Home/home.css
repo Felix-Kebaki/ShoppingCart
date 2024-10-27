@@ -84,6 +84,28 @@
     font-size:1rem;
     cursor:pointer;
     border:none;
+    color:white;
     background:orangered;
 }
 
+@media screen and (max-width:767px){
+    .MainbodyDiv{
+        grid-template-rows:repeat(13,6rem);
+    }
+}
+
+@media screen and (max-width:575px){
+    .MainbodyDiv{
+        width:98%;
+        grid-template-columns: 1fr ;
+        grid-template-rows:repeat(6,30rem);
+        grid-template-areas:
+        "FirstDiv "
+        "SecondDiv "
+        "ThirdDiv "
+        "FourthDiv "
+        "FifthDiv "
+        "SixthDiv "
+        ;
+    }
+}

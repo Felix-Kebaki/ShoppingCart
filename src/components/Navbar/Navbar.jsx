@@ -17,11 +17,8 @@ export function Navbar() {
                <img src={Home} alt="" />
                </NavLink> 
                <NavLink to="/cart" id="Cartlink"><img src={Cart} alt="" />
-               <p id="NumberInCart">{quantityCart}</p>
+               <p id="NumberInCart" className={quantityCart===0?"noNumber":"number"}>{quantityCart}</p>
                </NavLink>
-            </div>
-            <div className='MenuDivAtNav'>
-                <img src={Menu} alt="" />
             </div>
         </nav>
     </header>
